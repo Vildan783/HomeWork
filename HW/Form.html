@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Домашняя работа</title>
+		<link rel="stylesheet" href="FormStile.css" />
+	</head>
+	<body>
+		<form class="form">
+			<fieldset class="form-top">
+				<label class="main-lable">Ваши личные данные</label>
+
+				<label class="label" for="name">Ваше имя</label>
+				<input
+					class="input"
+					id="name"
+					type="text"
+					name="name"
+					placeholder="Ваше имя"
+					required
+				/>
+
+				<label class="label" for="age">Ваш возраст</label>
+				<input
+					class="input"
+					id="age"
+					type="number"
+					name="age"
+					placeholder="Ваш возратс"
+					required
+				/>
+
+				<label class="label" for="phone">Ваш номер телефона</label>
+				<input
+					class="input"
+					id="phone"
+					type="tel"
+					name="phone"
+					placeholder="ваш телефон"
+					required
+				/>
+
+				<label class="label" for="email">Ваша почта</label>
+				<input
+					class="input"
+					id="email"
+					type="email"
+					name="email"
+					placeholder="Ваша почта"
+					required
+				/>
+			</fieldset>
+
+			<fieldset class="form-lower">
+				<label for="">сообщение</label>
+				<textarea></textarea>
+				<label>
+					<input type="checkbox" />
+					я принимаю условия
+				</label>
+				<button>отпрвить</button>
+			</fieldset>
+		</form>
+	</body>
+</html>
