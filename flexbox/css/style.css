@@ -1,0 +1,36 @@
+html
+{
+    font-family: sans-serif;
+}
+body{
+box-sizing: border-box;
+}
+
+header
+{
+    border-bottom: 1px solid black
+}
+
+ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 15px
+}
+
+.container{
+    max-width: 1220px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+.header-container
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
