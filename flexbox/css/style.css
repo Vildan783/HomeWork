@@ -6,10 +6,7 @@ body{
 box-sizing: border-box;
 }
 
-header
-{
-    border-bottom: 1px solid black
-}
+
 
 ul{
     display: flex;
@@ -33,4 +30,7 @@ ul{
     gap: 10px;
     padding: 20px 0;
     flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 1px solid black
+
 }
