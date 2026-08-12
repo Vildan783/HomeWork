@@ -1,0 +1,149 @@
+html{font-family: Ubuntu, sans-serif;
+font-weight: 400;}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin:0 ;
+}
+
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0px 15px;
+
+}
+
+.article{
+    padding-top: 80px;
+    padding-bottom:120px ;
+}
+
+.article-title
+{
+margin-bottom: 40px;
+font-family: Oswald;
+font-family: var(--second-family);
+font-weight: 600;
+font-size: 48px;
+line-height: 115%;
+text-transform: uppercase;
+color: var(--text-zagolovochnyy);
+}
+
+.article-title-large{
+    max-width: 596px;
+    font-size: 48px;
+
+}
+
+.article-title-medium
+{
+    font-size: 36px;
+}
+
+
+
+.article-mb-1
+{
+    margin-bottom: 80px;
+}
+
+.article-mb-2
+{
+    margin-bottom: 40px;
+}
+
+.article-decor-wrapper
+{
+    position: relative;
+}
+
+.article-decor-wrapper::before
+{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: url(../images/decor-icon.jpg) no-repeat;
+    width: 528px;
+    height: 48px;
+}
+
+.article-decor-wrapper-1::before{
+    left: -350px;
+    top: 100px;
+}
+
+.article-decor-wrapper::after
+{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: url(../images/decor-icon.jpg) no-repeat;
+    width: 528px;
+    height: 48px;
+}
+
+.article-decor-wrapper-2::after
+{
+    right: -320px;
+    bottom: 136px;
+}
+
+.article-img, .article-video
+{
+    width: 100%;
+}
+.article-list
+{
+    margin-top: 0;
+    padding-left: 16px;
+}
+
+.article-item
+{
+    margin-bottom: 12px;
+}
+
+.article-item::marker
+{
+    font-size: 22px;
+    color: #3596ED;
+}
+
+
+.article-title-medium{
+margin-bottom: 12px;
+}
+
+.article-text
+{
+    margin-bottom: 20px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+color: var(--text-nabornyy);
+}
+
+.article-play-button
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    background-color: #3596ED;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    }
+
+    
